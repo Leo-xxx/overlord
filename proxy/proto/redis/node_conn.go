@@ -16,7 +16,7 @@ const (
 	opened = int32(0)
 	closed = int32(1)
 
-	nodeReadBufSize = 2 * 1024 * 1024 // NOTE: 2MB
+	nodeReadBufSize = 512 * 1024 // NOTE: 512k
 )
 
 var (
